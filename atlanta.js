@@ -47,7 +47,7 @@ const init = async () => {
 		delete require.cache[require.resolve(`./events/${file}`)];
 	});
     
-	client.login("ODE5NTY4NjcyMjUwMzk2NzAy.YEogzg.iWfmeyMGU1k6NRzNnEOwzD-rxTo"); // Log in to the discord api
+	client.login("ODE5NTY4NjcyMjUwMzk2NzAy.YEogzg.QGZoPO1uvJ-EQbiJ6kJtTfGghkI"); // Log in to the discord api
 
 	// connect to mongoose database
 	mongoose.connect(client.config.mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
